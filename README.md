@@ -18,3 +18,5 @@ The instructions in [The Rust on ESP Book](https://docs.esp-rs.org/book/) seem t
 If you follow the instructions for the `esp-template`, you can flash a sample program that prints hello world in a loop.
 
 Afterwards, you can use M5Burner to go back to the preloaded factory test firmware.
+
+With some tweaking (changing the `mipidsi` branch to `master`), <https://github.com/georgik/esp32-rust-multi-target-template/> does produce programs that exert the display.
